@@ -1426,6 +1426,8 @@ footer li {
   }
   .maximum-section {
     overflow: hidden;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
   .lending-content {
     margin-top: -6rem;
@@ -1438,6 +1440,9 @@ footer li {
   }
   .maximum-img {
     top: -120px;
+  }
+  .drive-box {
+    margin-top: 3rem;
   }
   .business-box {
     -webkit-column-gap: 0;
@@ -1468,7 +1473,11 @@ footer li {
     display: none;
   }
   .six-pack-content {
-    margin-top: 4rem;
+    margin-top: -7rem;
+    padding-top: 10rem;
+  }
+  .six-pack-content h5 {
+    top: 3rem;
   }
   .clint-content {
     -webkit-box-orient: vertical;
@@ -1488,7 +1497,7 @@ footer li {
   }
   .six-pack-section {
     background-color: #2e3192;
-    height: 1400px;
+    height: 1060px;
   }
 
   .six-pack-section .passion-2 {
@@ -1537,10 +1546,13 @@ footer li {
   }
   .board-directors-box .slick-prev,
   .slick-next {
-    top: 70%;
+    top: 85%;
   }
   .board-directors-box .slick-prev {
     left: 30%;
+  }
+  .resources-section {
+    height: 850px;
   }
   .company-section .company-img {
     -webkit-flex-wrap: wrap;
