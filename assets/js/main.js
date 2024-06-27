@@ -24,12 +24,12 @@ $(".loan-slider").slick({
     {
       breakpoint: 1200,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
       },
     },
     {
-      breakpoint: 900,
+      breakpoint: 600,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -48,11 +48,30 @@ $(".grow-background-img").slick({
   fade: true,
   cssEase: "linear",
 });
+$(".grow-background-img-2").slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  speed: 500,
+  pauseOnHover: false,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  fade: true,
+  cssEase: "linear",
+});
 $(".ambition-slider").slick({
   dots: false,
   arrows: true,
   slidesToShow: 1,
   slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 600,
+      settings: {
+        arrows: false,
+      },
+    },
+  ],
 });
 $(".investors-slider").slick({
   dots: false,
@@ -73,9 +92,9 @@ $(".investors-slider").slick({
       },
     },
     {
-      breakpoint: 900,
+      breakpoint: 600,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
       },
     },
@@ -101,7 +120,7 @@ $(".board-directors-slick").slick({
       },
     },
     {
-      breakpoint: 900,
+      breakpoint: 600,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -120,12 +139,12 @@ $(".resources-slider").slick({
     {
       breakpoint: 1200,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
       },
     },
     {
-      breakpoint: 900,
+      breakpoint: 600,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
