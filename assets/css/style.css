@@ -1283,6 +1283,9 @@ footer li {
 }
 /* mobile responcive */
 @media screen and (max-width: 600px) {
+  .container {
+    overflow-x: hidden;
+  }
   .font-80 {
     font-size: 42px;
     line-height: 48px;
