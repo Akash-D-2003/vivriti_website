@@ -152,3 +152,4 @@ $(".resources-slider").slick({
     },
   ],
 });
+AOS.init();
