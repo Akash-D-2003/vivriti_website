@@ -1295,7 +1295,7 @@ footer li {
     line-height: 36px;
   }
   .top-arrow-show {
-    display: nonef;
+    display: none;
   }
   .nav-box {
     display: none;
@@ -1412,6 +1412,7 @@ footer li {
   }
   .maximum-section .maximum-content {
     text-align: center;
+    display: block;
   }
   .content-box .ring-img::after {
     top: 0;
