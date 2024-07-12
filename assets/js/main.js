@@ -1,3 +1,11 @@
+let mobileNavbar = document.getElementById("mobileVive");
+function mobileNav() {
+  mobileNavbar.style.cssText = "left:0";
+}
+function mobileNavclose() {
+  mobileNavbar.style.cssText = "left: -100%";
+}
+
 $(window).scroll(function () {
   if ($(this).scrollTop() > 400) {
     $("header").addClass("sticky");

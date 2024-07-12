@@ -209,6 +209,45 @@ header button {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
+.mobile-vive-nav {
+  background-color: #2e3192;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding: 20px 0;
+  top: 0;
+  z-index: 10;
+  transition: all 0.3s;
+  display: none;
+}
+.mobile-vive-nav .logo img {
+  width: 10rem;
+}
+.mobile-vive-nav ul a {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffff;
+}
+.mobile-vive-nav ul li {
+  display: flex;
+  padding-block: 5px;
+  text-align: center;
+}
+.mobile-vive-nav ul {
+  margin-top: 30px;
+  padding-inline: 30px;
+}
+.mobile-vive-nav hr {
+  border: 0.5px solid #bababa1f;
+  margin-block: 20px;
+}
+.mobile-vive-nav ul li hr {
+  width: 100%;
+  height: 0.5px;
+  color: #ffff;
+}
 .grow-section {
   overflow: hidden;
   position: relative;
@@ -1092,7 +1131,7 @@ footer li {
     font-size: 90px;
     line-height: 96px;
   }
-  header ul {
+  header .nv-box ul {
     display: none !important;
   }
   .ambitions .img-box {
@@ -1302,6 +1341,10 @@ footer li {
   }
   .mobile-header {
     display: block;
+  }
+  .mobile-vive-nav {
+    display: block;
+    left: -100%;
   }
   .mobile-header {
     background-color: #fff;
